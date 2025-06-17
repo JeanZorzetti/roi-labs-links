@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "build": "2025.06.17.001",
+  "last_updated": "2025-06-17T20:17:00Z",
+  "status": "production",
+  "features": {
+    "react_version": "18.0.0",
+    "css_optimized": true,
+    "mobile_responsive": true,
+    "analytics_ready": true,
+    "wordpress_compatible": true
+  },
+  "cdn_urls": {
+    "jsdelivr": "https://cdn.jsdelivr.net/gh/JeanZorzetti/roi-labs-links@main",
+    "github_pages": "https://jeanzorzetti.github.io/roi-labs-links",
+    "raw_github": "https://raw.githubusercontent.com/JeanZorzetti/roi-labs-links/main"
+  },
+  "files": {
+    "index.html": {
+      "path": "index.html",
+      "size_kb": "~2",
+      "critical": true
+    },
+    "main_css": {
+      "path": "assets/css/roi-labs-links.css", 
+      "size_kb": "~11",
+      "minified": false
+    },
+    "main_js": {
+      "path": "assets/js/roi-labs-links.js",
+      "size_kb": "~10",
+      "minified": false
+    }
+  },
+  "performance": {
+    "first_load": "<2s",
+    "lighthouse_score": "95+",
+    "mobile_friendly": true,
+    "core_web_vitals": "optimized"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-06-17",
+      "changes": [
+        "Initial release",
+        "React 18 integration",
+        "Responsive design",
+        "Glassmorphism effects",
+        "WordPress compatibility"
+      ]
+    }
+  ]
+}
